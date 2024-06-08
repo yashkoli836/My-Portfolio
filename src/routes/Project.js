@@ -9,7 +9,7 @@ const Project = () => {
     <div className='project'>
       <Navbar/>
       <HeroImg2 heading="PROJECTS" text="Some of my recent works"/>
-      <WorkCard/>
+      <Work/>
       <Footer/>
     </div>
   )
