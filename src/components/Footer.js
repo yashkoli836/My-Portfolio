@@ -1,6 +1,7 @@
 import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa'
 import './Footer.css'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -27,9 +28,15 @@ const Footer = () => {
                 <h4>About Me</h4>  
                 <p>This is me Yash Mahor.</p>
                 <div className='social'>
-                <FaGithub size={30} style={{color:'#fff', marginRight:'1rem'}}/>
+                <Link to={"https://github.com/yashkoli836"}>
+                    <FaGithub size={30} style={{color:'#fff', marginRight:'1rem'}} />
+                </Link>
+                
                 <FaTwitter size={30} style={{color:'#fff', marginRight:'1rem'}}/>
-                <FaLinkedin size={30} style={{color:'#fff', marginRight:'1rem'}}/>
+                <Link to={"https://www.linkedin.com/in/yashmahor/"}>
+                    <FaLinkedin size={30} style={{color:'#fff', marginRight:'1rem'}}/>
+                </Link>
+                
                 </div>
             </div>
         </div>

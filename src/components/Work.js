@@ -1,7 +1,7 @@
 import React from 'react'
 import './WorkCard.css'
-import pro1 from '../assets/project1.png'
-import { NavLink } from 'react-router-dom'
+import WorkCard from './WorkCard'
+import WorkCardData from './WorkCardData'
 
 const Work = () => {
   return (
@@ -10,7 +10,17 @@ const Work = () => {
             Projects
         </h1>
         <div className='project-container'>
-            
+            {WorkCardData.map((val,index) => {
+              return (
+                <WorkCard 
+                key={index}
+                imgsrc={val.imgsrc}
+                title={val.title}
+                text={val.text}
+                view={val.view}
+                />
+              )
+            })}
         </div>
     </div>
   )

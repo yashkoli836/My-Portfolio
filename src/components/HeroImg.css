@@ -10,6 +10,7 @@
     background-size: cover;
     background-position: center;
     object-fit: cover;
+    opacity: .8;
 }
 
 .mask::after{
@@ -20,7 +21,7 @@
     left: 0;
     top: 0;
     background-color: #000;
-    opacity: 0.8;
+    opacity: .8;
 }
 
 .hero{
