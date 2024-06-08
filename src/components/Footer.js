@@ -12,7 +12,7 @@ const Footer = () => {
                     <FaHome size={20} style={{color:'#fff', marginRight:'2rem'}}/>
                     <div>
                         <p>123 Anywhere</p>
-                        <p>USA</p>
+                        <p>India</p>
                     </div>
                 </div>
                 <div className='phone'>
@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
                 <div className='email'>
                     <FaMailBulk size={20} style={{color:'#fff', marginRight:'2rem'}}/>
-                    <p>I8t9M@example.com</p>
+                    <p>yashkoli836@gmail.com</p>
                 </div>
             </div>
             <div className='right'>
