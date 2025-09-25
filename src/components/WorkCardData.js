@@ -5,6 +5,12 @@ import pro4 from '../assets/project5.png'
 
 const ProjectCardData = [
     {
+        imgsrc : pro4,
+        title : 'Ecommece Website',
+        text : "I developed an e-commerce shoe store using Next.js for fast, server-side rendered pages and Stripe. The website allows users to browse a catalog of shoes with detailed product pages, add items to a dynamic cart, and complete purchases through a seamless checkout process. It features responsive design for smooth usage across devices, efficient data fetching for quick product loading, and real-time order processing.",
+        view : "https://ecomm1-iota.vercel.app/"
+    },
+    {
         imgsrc : pro1,
         title : 'Nike Clone',
         text : "I built a Nike clone website using ReactJS, TailwindCSS, and JavaScript, replicating the design and functionality of the official site with a responsive layout and interactive features.",
@@ -22,12 +28,7 @@ const ProjectCardData = [
         text : "I built a portfolio website using ReactJS and JavaScript, showcasing my projects, skills, and experience. The site features a responsive design, smooth navigation, and interactive elements to provide an engaging user experience.",
         view : "https://my-portfolio-three-psi-12.vercel.app/"
     },
-    {
-        imgsrc : pro4,
-        title : 'Ecommece Website',
-        text : "I developed an e-commerce shoe store using Next.js for fast, server-side rendered pages and Stripe. The website allows users to browse a catalog of shoes with detailed product pages, add items to a dynamic cart, and complete purchases through a seamless checkout process. It features responsive design for smooth usage across devices, efficient data fetching for quick product loading, and real-time order processing.",
-        view : "https://ecomm1-iota.vercel.app/"
-    }
+    
 ]
 
 export default ProjectCardData
